@@ -1,0 +1,249 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+	font-family: Arial;
+}
+body {
+    margin: 2%;
+    padding: 0;
+    background-image: url(../img/DSC00452.JPG);
+    background-size: cover;
+    background-repeat: repeat;
+}
+header {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    box-sizing: border-box;
+    margin-right: %;
+    margin-left: %;
+    padding: 0;
+    font-size: 3em;
+    width: 96%;
+    color: darksalmon;
+    text-shadow: 2px 2px 2px white;
+    text-align: right;
+}
+h1 {
+    padding: 30px 0;
+}
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+    padding: 20px 0 20px 0; 
+    text-shadow: none;
+    font-weight: bold;
+}
+h3 {
+    font-size: 2em;
+    text-align: center;
+    text-shadow: none;
+    padding-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+/*Menu*/
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: sans-serif;
+    
+}
+nav>ul>li>a {
+    color: darksalmon;
+    }
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    margin-left: 1%;
+}
+nav> ul> li {
+    display: block;
+    float: left;
+    width: 16%;
+    border-right: 2px dotted white;
+    background-color: #fbf3e7;
+}
+nav> ul> li:last-child {
+    border-right: none;
+}
+nav ul li {
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    height: 65px;
+    line-height: 65px;
+    box-sizing: border-box;
+    background: rgba(251,243,231,0.5);
+}
+
+nav ul li:hover {
+    background-color: darksalmon;
+}
+nav ul li:hover>a{
+    color: white;
+}
+nav ul li ul {
+    display: none;
+    position: relative;
+}
+nav ul li:hover >ul {
+    display: block;
+}
+nav ul li ul {
+    top: 0;
+    margin-top: 0;
+    padding: 0;
+    background:rgba(251,243,231,0.5);
+    box-sizing: border-box;
+    position: relative;
+}
+nav ul li ul li{
+    margin: 0;
+    padding-left: 15px;
+    clear: both;
+    text-align: left;
+}
+nav ul li ul li a{
+    color: darksalmon;
+}
+
+nav ul li ul >li:hover {
+    background-color: #f9e6cb;
+    
+    }
+nav ul li ul >li:hover a {
+    color: darksalmon;
+}
+nav ul li ul li ul {
+    display: none;
+    left: 100%;
+    margin: 0;
+    padding: 0;
+    }
+nav ul li ul li ul li{
+    margin: 0;
+    padding-left: 10px;
+    
+       }
+nav ul li ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+.active {
+    background-color: darksalmon;
+}
+.active a{
+    color: white;
+}
+/*subpage*/
+.offfloat{
+    clear: both;
+}
+.subpage-heading {
+    text-align:center;
+    padding-top: 7px;
+    text-shadow: none;
+    font-weight: bold;
+    text-shadow: 0 2px 2px pink;
+}
+table {
+    margin:0 auto;
+    background:rgba(251,243,231,0.5);
+    text-align: center;
+    border-radius: 12px;
+
+}
+table td {
+    font-size: 1.3em;
+    padding: 0px 2px 0 2px;
+}
+table th{
+    border-right: 2px dotted white;
+    background-color: darksalmon;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+table tr th:first-child {
+    border-radius: 12px 0 0 0;
+    
+}
+table tr th:last-child {
+    border-radius: 0 12px 0 0;
+    border-right: none;
+}
+table tr:last-child > td:first-child {
+    border-radius: 0 0 0 12px;
+}
+table tr:last-child td:last-child {
+    border-radius: 0 0 12px 0;
+}
+table tr:nth-child(odd) {
+    background-color: #ded6c980;
+}
+table tr:hover {
+    background-color: white;
+}
+.career1, career2 {
+    margin: 0 auto
+}
+.skills  {
+    background:rgba(251,243,231,0.8);
+    padding: 10px 30px 10px 40px;
+    margin: 0 auto;
+    width: 45%;
+    text-align: left;
+    border-radius: 12px;
+}
