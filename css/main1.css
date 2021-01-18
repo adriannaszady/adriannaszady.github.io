@@ -110,7 +110,7 @@ nav> ul> li {
     display: block;
     float: left;
     width: 16%;
-    min-width: 100px;
+    min-width: 120px;
     border-right: 2px dotted white;
     background-color: #fbf3e7;
 }
@@ -121,8 +121,8 @@ nav ul li {
     border-radius: 5px;
     margin: 0;
     padding: 0;
-    height: 65px;
-    line-height: 65px;
+    height: 45px;
+    line-height: 45px;
     box-sizing: border-box;
     background: rgba(251,243,231,0.5);
 }
