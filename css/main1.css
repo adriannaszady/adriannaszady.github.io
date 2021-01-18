@@ -56,9 +56,9 @@ header {
 }
 h1, h2, h3 {
     box-sizing: border-box;
-    font-size: 30px;
+    font-size: 40px;
     width: 96%;
-    color: darksalmon;
+    color: #a7492a;
     
     text-align: right;
 }
@@ -67,7 +67,7 @@ h1 {
     text-shadow: 2px 2px 2px white;
 }
 h2 {
-    color: darksalmon;
+    color: #a7492a;
     font-size: 25px;
     text-align: center;
     padding-bottom: 10px; 
@@ -106,7 +106,7 @@ nav a {
     
 }
 nav>ul>li>a {
-    color: darksalmon;
+    color: #a7492a;
     }
 nav ul {
     list-style-type: none;
@@ -132,11 +132,11 @@ nav ul li {
     height: 45px;
     line-height: 45px;
     box-sizing: border-box;
-    background: rgba(251,243,231,0.5);
+    background: rgba(251,243,231,0.7);
 }
 
 nav ul li:hover {
-    background-color: darksalmon;
+    background-color: #a7492a;
 }
 nav ul li:hover>a{
     color: white;
@@ -166,16 +166,15 @@ nav ul li ul li{
     clear: both;
     text-align: left;
 }
-nav ul li ul li a{
-    color: darksalmon;
+nav ul li ul li a {
+    color:#bd7963;
 }
 
 nav ul li ul >li:hover {
     background-color: #f9e6cb;
-    
     }
 nav ul li ul >li:hover a {
-    color: darksalmon;
+    color: #a7492a;
 }
 nav ul li ul li ul {
     display: none;
@@ -188,34 +187,29 @@ nav ul li ul li ul li{
     margin: 0;
     padding-left: 10px;
     border-radius: 5px;
-    
-       }
+    }
 nav ul li ul li:hover ul {
     display: block;
     position: absolute;
 }
 .active {
-    background-color: darksalmon;
+    background-color: #a7492a;
 }
-.active a{
+.active >a{
     color: white;
 }
 /*subpage*/
 .offfloat{
     clear: both;
-}
-.subpage-heading {
-    text-align:center;
-    padding-top: 7px;
-    text-shadow: none;
-    font-weight: bold;
-    text-shadow: 0 2px 2px pink;
+    visibility: hidden;
+
 }
 table {
     margin:0 auto;
     background:rgba(251,243,231,0.5);
     text-align: center;
     border-radius: 12px;
+    width: 40%;
 
 }
 table td {
@@ -224,10 +218,11 @@ table td {
 }
 table th{
     border-right: 2px dotted white;
-    background-color: darksalmon;
+    background-color: #a7492a;
     color: white;
     font-size: 1.5em;
     font-weight: bold;
+    padding: 3px;
 }
 table tr th:first-child {
     border-radius: 12px 0 0 0;
@@ -252,26 +247,31 @@ table tr:hover {
 .career1, career2 {
     margin: 0 auto
 }
-.skills  {
+.skills, .hi  {
     background:rgba(251,243,231,0.8);
     padding: 10px 30px 10px 40px;
     margin: 0 auto;
     width: 45%;
     text-align: left;
     border-radius: 12px;
-}
+ }
 
 .contact {
     background:rgba(251,243,231,0.8);
     padding: 10px 30px 10px 40px;
     margin: 0 auto;
-    width: 45%;
+    width: 25%;
     text-align: center;
     border-radius: 12px;
     line-height: 20px;
 }
 .contact a {
     text-decoration: none;
+}
+.hi {
+    color: #a7492a;
+    padding: 20px;
+    line-height: 1.5;
 }
 i {
     padding: 4px;
