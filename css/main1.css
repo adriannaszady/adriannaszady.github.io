@@ -147,6 +147,7 @@ nav ul li ul {
     background:rgba(251,243,231,0.5);
     box-sizing: border-box;
     position: relative;
+    border-radius: 5px;
 }
 nav ul li ul li{
     margin: 0;
@@ -170,10 +171,12 @@ nav ul li ul li ul {
     left: 100%;
     margin: 0;
     padding: 0;
+    border-radius: 5px;
     }
 nav ul li ul li ul li{
     margin: 0;
     padding-left: 10px;
+    border-radius: 5px;
     
        }
 nav ul li ul li:hover ul {
