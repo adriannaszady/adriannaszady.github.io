@@ -65,9 +65,14 @@ h2 {
     margin: 0 auto;
     margin-top: 1%;
     margin-bottom: 1%;
-    width: 25%;
+    width: 35%;
     text-align: center;
     border-radius: 12px;
+}
+h3 {
+    font-size: 1.2em;
+    margin-top: 1%;
+    color: black;
 }
 .offfloat{
     clear: both;
@@ -127,6 +132,110 @@ table tr:nth-child(odd) {
     border-radius: 12px;
     color:#a7492a;
 }
+.skills ul {
+    list-style-type: disc;
+    padding-left: 10px;
+}
+/*menu*/
+nav a {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: sans-serif;
+    color: #a7492a;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    margin-left: 1%;
+}
+nav> ul> li {
+    display: block;
+    float: left;
+    width: 16%;
+    min-width: 120px;
+    border-right: 2px dotted white;
+    background-color: #fbf3e7;
+}
+nav> ul> li:last-child {
+    border-right: none;
+}
+nav ul li {
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    line-height: 45px;
+    box-sizing: border-box;
+    background: rgba(251,243,231,0.7);
+}
+
+nav ul li:hover {
+    background-color: #a7492a;
+}
+nav ul li:hover>a{
+    color: white;
+}
+nav ul li:active {
+    background-color: black;
+}
+nav ul li ul {
+    display: none;
+    position: relative;
+}
+nav ul li:focus >ul {
+    display: block;
+}
+nav ul li ul {
+    top: 0;
+    margin-top: 0;
+    padding: 0;
+    background:rgba(251,243,231,0.5);
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 5px;
+}
+nav ul li ul li{
+    margin: 0;
+    padding-left: 15px;
+    clear: both;
+    text-align: left;
+}
+nav ul li ul li a {
+    color:#bd7963;
+}
+
+nav ul li ul >li:focus {
+    background-color: #f9e6cb;
+    }
+nav ul li ul >li:focus a {
+    color: #a7492a;
+}
+nav ul li ul li ul {
+    display: none;
+    left: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    }
+nav ul li ul li ul li{
+    margin: 0;
+    padding-left: 10px;
+    border-radius: 5px;
+    }
+nav ul li ul li:focus ul {
+    display: block;
+    position: absolute;
+}
+.active {
+    background-color: #a7492a;
+}
+.active >a{
+    color: white;
+}
 @media only screen and (min-width: 766px){
     body {
         background-image: url(../img/DSC01132.JPG);
@@ -139,14 +248,15 @@ table tr:nth-child(odd) {
     }
     h1, h2, h3 {
         box-sizing: border-box;
-        font-size: 40px;
         width: 96%;
         color: #a7492a;
-        text-align: right;
+        
     }
     h1 {
+        font-size: 40px;
         padding: 30px 0;
         text-shadow: 2px 2px 2px white;
+        text-align: right;
     }
     h2 {
         color: #a7492a;
@@ -156,7 +266,7 @@ table tr:nth-child(odd) {
         font-weight: bold;
         background:rgba(251,243,231,0.8);
         padding: 10px 30px 10px 40px;
-        width: 25%;
+        width: 35%;
         min-width: 170px;
         border-radius: 12px;
         margin: 0 auto; 
@@ -175,21 +285,14 @@ table tr:nth-child(odd) {
     /*Menu*/
 
     nav a {
-        display: inline-block;
         text-decoration: none;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
         height: 100%;
         width: 100%;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 1.3em;
         font-family: sans-serif;
-        
-    }
-    nav>ul>li>a {
         color: #a7492a;
-        }
+    }
     nav ul {
         list-style-type: none;
         text-align: center;
